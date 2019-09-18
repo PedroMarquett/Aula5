@@ -8,7 +8,7 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            height: 312px;
+            height: 421px;
         }
         .auto-style5 {
             width: 125px;
@@ -78,6 +78,10 @@
             <asp:Button ID="btnSalvar" runat="server" Text="Salvar" />
 &nbsp;
             <asp:Button ID="btnVoltar" runat="server" Text="Voltar" OnClick="btnVoltar_Click" />
+            <br />
+            <br />
+            <asp:GridView ID="gvVenda" runat="server">
+            </asp:GridView>
         </div>
     </form>
 </body>

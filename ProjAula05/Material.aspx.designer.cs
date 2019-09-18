@@ -31,22 +31,40 @@ namespace ProjAula05 {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Controle ddlTipo0.
+        /// Controle txtDesc.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTipo0;
+        protected global::System.Web.UI.WebControls.TextBox txtDesc;
         
         /// <summary>
-        /// Controle ddlFornecedor0.
+        /// Controle ddlTipo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlFornecedor0;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipo;
+        
+        /// <summary>
+        /// Controle txtValor.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtValor;
+        
+        /// <summary>
+        /// Controle ddlFornecedor.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlFornecedor;
         
         /// <summary>
         /// Controle btnSalvar.
@@ -65,5 +83,23 @@ namespace ProjAula05 {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnVoltar;
+        
+        /// <summary>
+        /// Controle lblMsg.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMsg;
+        
+        /// <summary>
+        /// Controle gvMaterial.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvMaterial;
     }
 }

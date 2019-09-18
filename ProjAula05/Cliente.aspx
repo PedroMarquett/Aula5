@@ -8,7 +8,7 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            height: 277px;
+            height: 462px;
         }
         .auto-style5 {
             width: 125px;
@@ -38,7 +38,8 @@
                     <tr>
                         <td class="auto-style5">Nome:&nbsp; </td>
                         <td class="auto-style6">
-                            <input id="txtNome" type="text" /></td>
+                            <asp:TextBox ID="txtNome" runat="server"></asp:TextBox>
+                        </td>
                         <td class="auto-style6"></td>
                     </tr>
                     <tr>
@@ -46,32 +47,41 @@
                             <p>Telefone:&nbsp; </p>
                         </td>
                         <td class="auto-style2">
-                            <input id="txtTelefone" type="text" /></td>
+                            <asp:TextBox ID="txtTelefone" runat="server"></asp:TextBox>
+                        </td>
                         <td class="auto-style2"></td>
                     </tr>
                     <tr>
                         <td class="auto-style3">Cidade:&nbsp; </td>
                         <td>
-                            <input id="txtCidade" type="text" /></td>
+                            <asp:TextBox ID="txtCidade" runat="server"></asp:TextBox>
+                        </td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td class="auto-style3">Endereço:&nbsp; </td>
                         <td>
-                            <input id="txtEndereco" type="text" /></td>
+                            <asp:TextBox ID="txtEndereco" runat="server"></asp:TextBox>
+                        </td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td class="auto-style3">CPF:&nbsp; </td>
                         <td>
-                            <input id="txtCpf" type="text" /></td>
+                            <asp:TextBox ID="txtCpf" runat="server"></asp:TextBox>
+                        </td>
                         <td>&nbsp;</td>
                     </tr>
                 </table>
             </p>
-            <asp:Button ID="btnSalvar" runat="server" Text="Salvar" />
+            <asp:Button ID="btnSalvar" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
 &nbsp;
             <asp:Button ID="btnVoltar" runat="server" Text="Voltar" OnClick="btnVoltar_Click" />
+            <br />
+            <asp:Label ID="lblMsg" runat="server"></asp:Label>
+            <br />
+            <asp:GridView ID="gvCliente" runat="server">
+            </asp:GridView>
         </div>
     </form>
 </body>

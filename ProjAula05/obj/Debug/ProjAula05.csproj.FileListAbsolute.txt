@@ -54,3 +54,7 @@ C:\Users\brasi\source\repos\ProjAula05\ProjAula05\obj\Debug\ProjAula05.csproj.Co
 C:\Users\brasi\source\repos\ProjAula05\ProjAula05\obj\Debug\ProjAula05.csproj.CopyComplete
 C:\Users\brasi\source\repos\ProjAula05\ProjAula05\obj\Debug\ProjAula05.dll
 C:\Users\brasi\source\repos\ProjAula05\ProjAula05\obj\Debug\ProjAula05.pdb
+C:\Users\brasi\source\repos\ProjAula05\ProjAula05\bin\EntityFramework.dll
+C:\Users\brasi\source\repos\ProjAula05\ProjAula05\bin\EntityFramework.SqlServer.dll
+C:\Users\brasi\source\repos\ProjAula05\ProjAula05\bin\EntityFramework.xml
+C:\Users\brasi\source\repos\ProjAula05\ProjAula05\bin\EntityFramework.SqlServer.xml

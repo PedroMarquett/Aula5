@@ -8,7 +8,7 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            height: 221px;
+            height: 370px;
         }
         .auto-style2 {
             width: 121px;
@@ -23,7 +23,8 @@
                 <tr>
                     <td class="auto-style2">Descrição Tipo: </td>
                     <td>
-            <input id="txtTipo" type="text" /></td>
+                        <asp:TextBox ID="txtDesc" runat="server"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -38,8 +39,13 @@
                 </tr>
             </table>
             <br />
-            <asp:Button ID="btnSalvar" runat="server" Text="Salvar" />
+            <asp:Button ID="btnSalvar" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
 &nbsp;<asp:Button ID="btnVoltar" runat="server" Text="Voltar" OnClick="btnVoltar_Click" />
+            <br />
+            <asp:Label ID="lblMsg" runat="server"></asp:Label>
+            <br />
+            <asp:GridView ID="gvTipo" runat="server">
+            </asp:GridView>
         </div>
     </form>
 </body>
